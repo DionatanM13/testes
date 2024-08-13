@@ -1,11 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exemplos de Pseudo-Classes CSS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Exemplos de Pseudo-Classes CSS</h1>
+
+    <h2>:active</h2>
+    <button class="active-example">Clique em mim!</button>
+
+    <h2>:checked</h2>
+    <input type="checkbox" id="check" checked>
+    <label for="check">Checkbox marcado</label>
+
+    <h2>:default</h2>
+    <input type="radio" name="radio" id="defaultRadio" checked>
+    <label for="defaultRadio">Opção padrão</label>
+
+    <h2>:dir()</h2>
+    <p dir="rtl" class="dir-example">Texto com direção da direita para a esquerda</p>
+
+    <h2>:disabled</h2>
+    <button disabled>Botão desabilitado</button>
+
+    <h2>:empty</h2>
+    <div class="empty-example"></div>
+
+    <h2>:enabled</h2>
+    <button class="enabled-example">Botão habilitado</button>
+
+    <h2>:first-child</h2>
+    <ul>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+
+    <h2>:first-of-type</h2>
+    <div>
+        <p>Primeiro parágrafo</p>
+        <span>Primeiro span</span>
+    </div>
+
+    <h2>:focus</h2>
+    <input type="text" placeholder="Foco em mim">
+
+    <h2>:hover</h2>
+    <button class="hover-example">Passe o mouse sobre mim</button>
+
+    <h2>:indeterminate</h2>
+    <input type="checkbox" id="indeterminateCheckbox">
+    <label for="indeterminateCheckbox">Checkbox indeterminado</label>
+
+    <h2>:in-range</h2>
+    <input type="range" min="0" max="100" value="50" class="in-range-example">
+
+    <h2>:invalid</h2>
+    <input type="email" placeholder="Email inválido" class="invalid-example">
+
+    <h2>:lang()</h2>
+    <p lang="en" class="lang-example">This text is in English</p>
+
+    <h2>:last-child</h2>
+    <ul>
+        <li>Primeiro item</li>
+        <li>Último item</li>
+    </ul>
+
+    <h2>:last-of-type</h2>
+    <div>
+        <span>Primeiro span</span>
+        <p>Último parágrafo</p>
+    </div>
+
+    <h2>:link</h2>
+    <a href="#" class="link-example">Este é um link</a>
+
+    <h2>:not()</h2>
+    <p class="not-example">Parágrafo normal</p>
+    <p class="special">Parágrafo especial</p>
+
+    <h2>:nth-child()</h2>
+    <ul>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+
+    <h2>:nth-last-child()</h2>
+    <ul>
+        <li>Primeiro item</li>
+        <li>Último item</li>
+    </ul>
+
+    <h2>:nth-of-type()</h2>
+    <div>
+        <p>Primeiro parágrafo</p>
+        <p>Segundo parágrafo</p>
+    </div>
+
+    <h2>:only-child</h2>
+    <div class="only-child-example">
+        <p>Sou o único filho</p>
+    </div>
+
+    <h2>:optional</h2>
+    <input type="text" placeholder="Campo opcional">
+
+    <h2>:out-of-range</h2>
+    <input type="number" min="0" max="10" value="20" class="out-of-range-example">
+
+    <h2>:read-only</h2>
+    <input type="text" value="Somente leitura" readonly>
+
+    <h2>:read-write</h2>
+    <input type="text" placeholder="Leitura e escrita">
+
+    <h2>:required</h2>
+    <input type="text" placeholder="Campo obrigatório" required>
+
+    <h2>:target</h2>
+    <a href="#target-example" class="target-link">Vá para o alvo</a>
+    <div id="target-example" class="target-example">Alvo atingido!</div>
+
+    <h2>:valid</h2>
+    <input type="email" placeholder="Email válido" class="valid-example">
+
+    <h2>:visited</h2>
+    <a href="#" class="visited-example">Link visitado</a>
+
 </body>
 </html>

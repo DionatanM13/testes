@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button.active-example:active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="checkbox"]:checked + label {
+    color: #4CAF50;
+}
+
+input[type="radio"]:default + label {
+    font-weight: bold;
+}
+
+p.dir-example:dir(rtl) {
+    background-color: #f0f0f0;
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: #666;
+}
+
+div.empty-example:empty {
+    border: 2px dashed #999;
+    height: 50px;
+}
+
+button.enabled-example:enabled {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul li:first-child {
+    color: #4CAF50;
+}
+
+div > p:first-of-type {
+    font-weight: bold;
+}
+
+input:focus {
+    border: 2px solid #4CAF50;
+}
+
+button.hover-example:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="checkbox"]#indeterminateCheckbox:indeterminate {
+    background-color: #ffa500;
+}
+
+input.in-range-example:in-range {
+    background-color: #4CAF50;
+}
+
+input.invalid-example:invalid {
+    border: 2px solid red;
+}
+
+p.lang-example:lang(en) {
+    font-style: italic;
+}
+
+ul li:last-child {
+    color: #f44336;
+}
+
+div > p:last-of-type {
+    font-weight: bold;
+    color: #f44336;
+}
+
+a.link-example:link {
+    color: #2196F3;
+}
+
+p:not(.special) {
+    background-color: #f0f0f0;
+}
+
+ul li:nth-child(2) {
+    color: #ff5722;
+}
+
+ul li:nth-last-child(1) {
+    font-weight: bold;
+    color: #9C27B0;
+}
+
+div > p:nth-of-type(2) {
+    color: #00bcd4;
+}
+
+div.only-child-example p:only-child {
+    font-weight: bold;
+    color: #607D8B;
+}
+
+input:optional {
+    border: 1px dashed #999;
+}
+
+input.out-of-range-example:out-of-range {
+    border: 2px solid red;
+}
+
+input[readonly]:read-only {
+    background-color: #f0f0f0;
+}
+
+input:read-write {
+    border: 2px solid #4CAF50;
+}
+
+input:required {
+    border: 2px solid #ff5722;
+}
+
+#target-example:target {
+    border: 2px solid #4CAF50;
+    padding: 10px;
+}
+
+input.valid-example:valid {
+    border: 2px solid green;
+}
+
+a.visited-example:visited {
+    color: #9C27B0;
+}
